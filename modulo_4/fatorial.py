@@ -14,3 +14,12 @@ numero = int(input("Digite o valor de n: "))
 # Calcula e imprime o fatorial
 resultado = fatorial(numero)
 print(resultado)
+
+# Outro exemplo usando while
+numero = int(input("Digite o valor de n: "))
+while numero >= 0:
+    fatorial = 1
+    while numero > 1:
+        fatorial *= numero
+        numero -= 1
+    print(fatorial)   

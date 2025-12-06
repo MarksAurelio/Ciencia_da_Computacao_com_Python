@@ -2,7 +2,6 @@
 # e verifique se é primo. Se o número for primo, imprima "primo".
 # Caso contrário, imprima "não primo"
 
-
 def numeroPrimo(numero):
     if numero == 0:
         return False

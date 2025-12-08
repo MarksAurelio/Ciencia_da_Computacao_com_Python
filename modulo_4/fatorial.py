@@ -1,5 +1,4 @@
-# Escreva um programa que receba um número natural n na entrada
-# e imprima n! (fatorial) na saída.
+""" Escreva um programa que receba um número natural n na entrada e imprima n! (fatorial) na saída. """
 
 # Calcula o fatorial de um número natural
 def fatorial(n):

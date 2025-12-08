@@ -1,7 +1,6 @@
-# Escreva um programa que receba um número inteiro na entrada,
-# calcule e imprima a soma dos dígitos deste número na saída.
+""" Escreva um programa que receba um número inteiro na entrada, calcule e imprima a soma dos dígitos deste número na saída. """
 
-# função que calcula a soma dos dígitos de um número inteiro
+# Função que calcula a soma dos dígitos de um número inteiro
 def soma_digitos_numero(numero):
     soma = 0 # o 0 é número de inicializacão
     while numero > 0: # enquanto o número maior que 0
